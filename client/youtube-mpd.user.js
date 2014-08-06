@@ -25,7 +25,7 @@ function addSong(linkNode) {
     var n = noty({
         layout: 'bottom',
         type: 'information',
-        text: 'Adding song "' + title + '" <img src="http://storage.hrubi.cz/p/img/ajax-loader.gif" />'
+        text: 'Adding song "' + title + '" <img src="https://raw.githubusercontent.com/hrubi/ytmpd/master/client/ajax-loader.gif" />'
     });
     var req = {
         'url': url,
