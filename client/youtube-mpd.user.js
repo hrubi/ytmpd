@@ -6,7 +6,7 @@
 // @version     1
 // @grant       GM_xmlhttpRequest
 // @require     https://raw.githubusercontent.com/hrubi/ytmpd/master/client/jquery.min.js
-// @require     https://github.com/hrubi/ytmpd/raw/master/client/jquery.noty.packaged.min.js
+// @require     https://raw.githubusercontent.com/hrubi/ytmpd/master/client/jquery.noty.packaged.min.js
 // ==/UserScript==
 
 
