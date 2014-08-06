@@ -5,8 +5,8 @@
 // @include     /https?://(.*\.)?youtube.com/.*/
 // @version     1
 // @grant       GM_xmlhttpRequest
-// @require     http://storage.hrubi.cz/p/js/jquery.min.js
-// @require     http://storage.hrubi.cz/p/js/jquery.noty.packaged.min.js
+// @require     https://raw.githubusercontent.com/hrubi/ytmpd/master/client/jquery.min.js
+// @require     https://github.com/hrubi/ytmpd/raw/master/client/jquery.noty.packaged.min.js
 // ==/UserScript==
 
 
