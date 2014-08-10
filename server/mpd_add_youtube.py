@@ -130,5 +130,6 @@ def app(environ, start_response):
     return [json.dumps({'status': 'success', 'text': 'Successfully added'})]
 
 
-# FIXME - configurable socket
-WSGIServer(app, bindAddress=("localhost", 8888)).run()
+if __name__ == '__main__':
+    # FIXME - configurable socket
+    WSGIServer(app, bindAddress=("localhost", 8888)).run()
