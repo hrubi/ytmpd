@@ -75,7 +75,7 @@ def add_stream(stream_info):
     }
 
     pls_text = u'''[playlist]
-numberofentries=1
+NumberOfEntries=1
 File1=%(url)s
 Title1=%(title)s
 Length1=-1
