@@ -82,7 +82,7 @@ Length1=-1
 version=2''' % pls_dict
 
     with tempfile.NamedTemporaryFile(suffix='.pls', dir=MPD_PLAYLISTS, delete=False) as pls:
-        chmod(pls.name, S_IRGRP | S_IROTH | S_IRUSR | S_IWUSR )
+        chmod(pls.name, S_IRGRP | S_IROTH | S_IRUSR | S_IWUSR)
         pls.write(encode(pls_text))
         pls.flush()
         pls_name = basename(pls.name)
